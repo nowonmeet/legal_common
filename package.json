@@ -1,0 +1,36 @@
+{
+  "name": "legal-documents-template",
+  "version": "1.0.0",
+  "description": "Generic legal document templates for subscription-based mobile applications",
+  "main": "index.html",
+  "scripts": {
+    "validate": "html-validate **/*.html && htmlhint **/*.html",
+    "check-links": "linkinator . --recurse --timeout 10000",
+    "serve": "python3 -m http.server 8000",
+    "test": "npm run validate && npm run check-links"
+  },
+  "keywords": [
+    "legal",
+    "terms-of-service",
+    "privacy-policy",
+    "mobile-app",
+    "subscription",
+    "gdpr",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "html-validate": "^8.0.0",
+    "htmlhint": "^1.1.4",
+    "linkinator": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}

@@ -1,0 +1,35 @@
+title: "法的文書テンプレート | Legal Documents Template"
+description: "サブスクリプション型モバイルアプリ向けの汎用利用規約とプライバシーポリシー"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 多言語設定
+languages: ["ja", "en"]
+default_lang: "ja"
+
+# 会社情報（カスタマイズ可能）
+company:
+  name: "[会社名]"
+  email: "[サポートメール]"
+  contact_url: "[お問い合わせURL]"
+
+# SEO設定
+lang: ja
+author: ""
+twitter:
+  username: ""
+
+# GitHub Pages設定
+safe: true
+source: .
+destination: ./_site
+incremental: false
